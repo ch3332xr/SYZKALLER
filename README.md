@@ -11,6 +11,13 @@ Ref: https://github.com/google/syzkaller/blob/master/docs/linux/setup.md#go-and-
 3. chmod  +x  *.sh
 4. ./setup.sh
 
+## FUZZ
+
+Ref: https://github.com/google/syzkaller/blob/master/docs/usage.md
+
+1. ./bin/syz-manager -config=my.cfg
+
+
 
 
 ##### Tested on Linux 4.15.0-106-generic #107-Ubuntu SMP 
