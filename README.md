@@ -2,14 +2,18 @@
 
 Simple script to start KERNEL FUZZING in a go
 
+
+
 ## Install
 
 Ref: https://github.com/google/syzkaller/blob/master/docs/linux/setup.md#go-and-syzkaller
 
-1. git clone https://github.com/ch3332/SYZKALLER
-2. cd SYZKALLER
-3. chmod  +x  *.sh
-4. ./setup.sh
+1. Run as ROOT
+2. git clone https://github.com/ch3332/SYZKALLER
+3. cd SYZKALLER
+4. chmod  +x  *.sh
+5. ./setup.sh
+
 
 ## FUZZ
 
