@@ -67,4 +67,4 @@ echo  [***** Patience Pays *****]
 echo  Launch SYZKALLER :  ./bin/syz-manager -config=my.cfg
 echo  GET FUZZING!!!
 echo  [-------------SkFJX01BSEFLQUwh------------]
-echo  follow me on https://github.com/ch3332
+echo  follow me on https://github.com/ch3332xr
