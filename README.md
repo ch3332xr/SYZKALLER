@@ -9,7 +9,7 @@ Simple script to start KERNEL FUZZING in a go
 Ref: https://github.com/google/syzkaller/blob/master/docs/linux/setup.md#go-and-syzkaller
 
 1. Run as ROOT
-2. git clone https://github.com/ch3332/SYZKALLER
+2. git clone https://github.com/ch3332xr/SYZKALLER
 3. cd SYZKALLER
 4. chmod  +x  *.sh
 5. ./setup.sh
