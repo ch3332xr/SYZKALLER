@@ -9,7 +9,7 @@ echo
 echo
 echo 
 echo                 follow me on 
-echo          https://github.com/ch3332
+echo          https://github.com/ch3332xr
 echo  [......////////\\\ This May Take a While.........@#$%^*]
 echo  [+++  Updating repos and  installing dependencies]
 apt update
@@ -51,7 +51,7 @@ chmod +x create-image.sh
 cd
 echo  [+++ Building SYZKALLER  ]
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
-tar -xf go1.14.2.linux-amd64.tar.gz
+tar -xvf go1.14.2.linux-amd64.tar.gz
 mv go goroot
 mkdir gopath
 export GOPATH=/home/ubuntu/gopath
