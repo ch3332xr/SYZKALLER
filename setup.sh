@@ -55,7 +55,7 @@ tar -xvf go1.14.2.linux-amd64.tar.gz
 mv go goroot
 mkdir gopath
 export GOPATH=/home/ubuntu/SYZKALLER/gopath
-export GOROOT=/home/ubuntu/SZYKALLER?goroot
+export GOROOT=/home/ubuntu/SZYKALLER/goroot
 export PATH=$GOPATH/bin:$PATH
 export PATH=$GOROOT/bin:$PATH
 go get -u -d github.com/google/syzkaller/prog
