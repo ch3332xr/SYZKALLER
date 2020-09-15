@@ -24,5 +24,5 @@ Ref: https://github.com/google/syzkaller/blob/master/docs/usage.md
 
 
 
-##### Tested on Linux 4.15.0-106-generic #107-Ubuntu SMP 
+##### Linux 5.4.0-47-generic #51-Ubuntu SMP
 SkFJX01BSEFLQUwh
