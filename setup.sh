@@ -48,7 +48,7 @@ chmod +x create-image.sh
 ##echo -e “[+++  QEMU LAUNCH]”
 ##qemu-system-x86_64 -m 4G -smp 2 -kernel arch/x86_64/boot/bzImage -append "console=ttyS0 root=/dev/sda earlyprintk=serial" -drive file=stretch.img -net user,host=10.0.2.10,hostfwd=tcp:127.0.0.1:10021-:22 -net nic,model=e1000 -enable-kvm -nographic -pidfile vm.pid 2>&1 | tee vm.log
 ##Build SYZKALLER
-cd
+cd ..
 echo  [+++ Building SYZKALLER  ]
 wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
 tar -xvf go1.14.2.linux-amd64.tar.gz
