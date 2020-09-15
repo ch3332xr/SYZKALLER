@@ -2,8 +2,8 @@
 
 
 ##Updating Repos & Installing dependencies
-echo      ++++++++++ SYSZKALLER INSTALLER ++++++++++++
-echo   ----------- FUZZ LINUX KERNEL ON THE GO -----------
+echo      ++++++++++ SYZKALLER INSTALLER ++++++++++++
+echo   ----------- FUZZ LINUX KERNELs ON THE GO -----------
 echo --------------------------------------------------------
 echo  
 echo
@@ -54,15 +54,14 @@ wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
 tar -xvf go1.14.2.linux-amd64.tar.gz
 mv go goroot
 mkdir gopath
-export GOPATH=/home/ubuntu/gopath
-export GOROOT=/home/ubuntu/goroot
+export GOPATH=/home/ubuntu/SYZKALLER/gopath
+export GOROOT=/home/ubuntu/SZYKALLER?goroot
 export PATH=$GOPATH/bin:$PATH
 export PATH=$GOROOT/bin:$PATH
 go get -u -d github.com/google/syzkaller/prog
 cd gopath/src/github.com/google/syzkaller/
 make
 mkdir workdir
-cd workdir/
 echo  [***** Patience Pays *****]
 echo  Launch SYZKALLER :  ./bin/syz-manager -config=my.cfg
 echo  GET FUZZING!!!
