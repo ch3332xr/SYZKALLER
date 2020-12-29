@@ -19,7 +19,7 @@ Ref: https://github.com/google/syzkaller/blob/master/docs/linux/setup.md#go-and-
 
 Ref: https://github.com/google/syzkaller/blob/master/docs/usage.md
 
-1. Edit IP /SYZKALLER/my.cfg
+1. Edit "IP" ~/SYZKALLER/my.cfg
 2. ./bin/syz-manager -config=my.cfg
 
 
