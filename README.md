@@ -19,10 +19,11 @@ Ref: https://github.com/google/syzkaller/blob/master/docs/linux/setup.md#go-and-
 
 Ref: https://github.com/google/syzkaller/blob/master/docs/usage.md
 
-1. ./bin/syz-manager -config=my.cfg
+1. Edit IP /SYZKALLER/my.cfg
+2. ./bin/syz-manager -config=my.cfg
 
 
 
 
-##### Linux 5.4.0-47-generic #51-Ubuntu SMP
+##### Linux 5.4.0-54-generic #60-Ubuntu SMP
 SkFJX01BSEFLQUwh
