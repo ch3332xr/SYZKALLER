@@ -19,7 +19,7 @@ echo  [+++  Cloning and Bulding LINUX KERNEL]
 git clone https://github.com/torvalds/linux.git $KERNEL
 cd linux
 make CC="$GCC/usr/bin/gcc" defconfig
-make CC="$GCC/usr/bin/gcc" kvmconfig
+make CC="$GCC/bin/gcc" kvm_guest.config
 ##Editing .config file
 echo  [+++  Setting up Config]
 sed -i 's/# CONFIG_KCOV is not set/CONFIG_KCOV=y/' .config
