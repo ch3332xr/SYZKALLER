@@ -13,7 +13,7 @@ echo          https://github.com/ch3332xr
 echo  [......////////\\\ This May Take a While.........@#$%^*]
 echo  [+++  Updating repos and  installing dependencies]
 apt update
-apt install build-essential manpages-dev flex bison libssl-dev libelf-dev debootstrap qemu-system-x86
+apt install build-essential manpages-dev flex bison libssl-dev libelf-dev debootstrap qemu-system-x86 libncurses-dev unzip
 ##Cloning the LINUX KERNEL &  building it
 echo  [+++  Cloning and Bulding LINUX KERNEL]
 git clone https://github.com/torvalds/linux.git $KERNEL
